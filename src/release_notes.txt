@@ -1,3 +1,9 @@
+Version 1.1.2
+
+Fixed Bug - Not hiding ads on Startpage.com
+
+---------------------------------------------------------------------------------------------------
+
 Version 1.1.1
 
 Updated jQuery to v3.3.1

@@ -27,7 +27,7 @@
 			if (prefs['above']) {
 				stylesheet = stylesheet + '\
 					/* Above Search Results (Search) */\n\
-					#sponsored_csa1 { display: none !important; }\n\
+					#spon-results { display: none !important; }\n\
 					\n'
 			}
 		// Below Search Results
