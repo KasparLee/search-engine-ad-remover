@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   version="1.1"
+   id="svg3484"
+   viewBox="0 0 1000 1000"
+   height="1000"
+   width="1000">
+  <title
+     id="title5151">SearchEngineAdRemover</title>
+  <defs
+     id="defs3486">
+    <filter
+       id="filter5137"
+       style="color-interpolation-filters:sRGB;">
+      <feColorMatrix
+         id="feColorMatrix5139"
+         in="SourceGraphic"
+         result="color"
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0.85 0" />
+      <feGaussianBlur
+         id="feGaussianBlur5141"
+         result="blur"
+         stdDeviation="7"
+         in="SourceAlpha" />
+      <feSpecularLighting
+         id="feSpecularLighting5143"
+         result="specular"
+         lighting-color="rgb(255,255,255)"
+         surfaceScale="5"
+         specularConstant="0.9"
+         specularExponent="25"
+         in="blur">
+        <feDistantLight
+           id="feDistantLight5145"
+           azimuth="225"
+           elevation="60" />
+      </feSpecularLighting>
+      <feComposite
+         id="feComposite5147"
+         result="composite1"
+         operator="arithmetic"
+         k2="1"
+         k3="1"
+         in2="SourceGraphic"
+         in="specular" />
+      <feComposite
+         id="feComposite5149"
+         result="composite2"
+         operator="atop"
+         in2="color"
+         in="composite1" />
+    </filter>
+  </defs>
+  <metadata
+     id="metadata3489">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>SearchEngineAdRemover</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(0,-52.362161)"
+     id="layer1">
+    <ellipse
+       ry="320.74683"
+       rx="324.73038"
+       cy="394.48685"
+       cx="346.37888"
+       id="Bottom_White_Circle"
+       style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#fa0000;stroke-width:43.03099442;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <text
+       id="text4309"
+       y="474.11465"
+       x="99.697845"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:218.75px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold'"
+         y="474.11465"
+         x="99.697845"
+         id="tspan4311">ADS</tspan></text>
+    <rect
+       style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:20.08909827;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="White_Bar"
+       width="40.60006"
+       height="608.84204"
+       x="508.39786"
+       y="-198.77605"
+       transform="matrix(0.7914047,0.61129256,-0.71094235,0.70325029,0,0)" />
+    <path
+       style="fill:#000000"
+       d="m 897.56089,1051.1625 c -1.03752,-0.3653 -2.54275,-1.1707 -3.34484,-1.79 -1.91266,-1.4766 -17.8304,-17.1175 -33.00797,-32.434 -23.15869,-23.3706 -44.3743,-45.12244 -102.25381,-104.83864 -38.3249,-39.54093 -79.27513,-81.53945 -101.57815,-104.17857 -24.19274,-24.55711 -29.84933,-30.83249 -36.41473,-40.39782 -7.53796,-10.9826 -10.42828,-18.24704 -15.9697,-40.13836 -5.1894,-20.50087 -6.96611,-25.91764 -10.08645,-30.75247 -5.65085,-8.75569 -14.37365,-17.78503 -34.65641,-35.87447 -8.72616,-7.78249 -10.86072,-9.51264 -11.31621,-9.17174 60.05077,-65.04507 0,0 60.05077,-65.04507 l 12.26203,13.71768 c 22.24598,24.8869 30.79494,33.66462 35.36704,36.3136 3.95002,2.28869 16.60303,6.99488 28.49,10.59665 27.07256,8.20313 37.81193,13.80023 52.60373,27.41577 5.0607,4.65823 7.64523,7.31062 35.94711,36.8909 43.67126,45.64403 147.53345,152.9933 187.83087,194.1373 20.42901,20.85812 22.22737,22.74532 27.21869,28.56306 6.83027,7.96119 9.63562,12.43781 10.80714,17.24605 1.2935,5.3083 -0.0314,12.18145 -3.29504,17.09255 -4.9437,7.43989 -21.64675,25.98258 -48.63466,53.99128 -22.01683,22.8497 -27.09875,27.3529 -32.67589,28.9549 -4.58303,1.3165 -13.17366,1.1681 -17.34352,-0.2995 z"
+       id="Handle" />
+    <rect
+       transform="matrix(0.71145712,0.70272951,-0.71145712,0.70272951,0,0)"
+       y="-285.40814"
+       x="502.59476"
+       height="645.32111"
+       width="43.032635"
+       id="Red_Bar"
+       style="opacity:1;fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:40;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <ellipse
+       ry="320.74683"
+       rx="324.73038"
+       cy="394.48666"
+       cx="346.37906"
+       id="Top_Red_Ring"
+       style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#ff0000;stroke-width:43.03099442;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+  </g>
+</svg>

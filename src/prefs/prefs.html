@@ -1,0 +1,85 @@
+<!DOCTYPE HTML>
+
+<head>
+	<title>SearchEngineAdRemover - Preferences</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="prefs.css">			<!-- Prefs Stylesheet -->
+	<script src="/scripts/jquery-3.3.1.js"></script>	<!-- jQuery 3.3.1 -->
+	<script src="prefs.js" defer></script>				<!-- Prefs Script -->
+</head>
+
+<body>
+
+	<h1>Options</h1>
+	<h2>Check the items to be removed:</h2>
+
+	<ul id="tabs">
+		<li class="tab active" data-name="google">Google</li>
+		<li class="tab"        data-name="bing">Bing</li>
+		<li class="tab"        data-name="duckduckgo">DuckDuckGo</li>
+		<li class="tab"        data-name="startpage">StartPage</li>
+		<li class="tab"        data-name="ask">Ask</li>
+	</ul>
+
+	<div id="se_blocks">
+		<!-- Google -->
+			<div class="se_block active" data-se="google">
+				<div class="section">
+					<h3>Google Search</h3>
+					<span><input type="checkbox" data-option="above">Ads above Search Results</span>
+					<span><input type="checkbox" data-option="sponsored">Sponsored Products Above / on Right of Search Results</span>
+					<span><input type="checkbox" data-option="twitter">Remove Twitter Feeds in Search Results</span>
+					<span><input type="checkbox" data-option="r_searches"><em>Related Searches</em> Section</span>
+				</div>
+				<div class="section">
+					<h3>Google Maps</h3>
+					<span><input type="checkbox" data-option="maps_above">Ads above Search Results</span>
+				</div>
+				<div class="section">
+					<h3>Google Shopping</h3>
+					<span><input type="checkbox" data-option="shop_below">Ads below Search Results</span>
+				</div>
+			</div>
+		<!-- Bing -->
+			<div class="se_block" data-se="bing">
+				<div class="section">
+					<h3>Bing Search</h3>
+					<span><input type="checkbox" data-option="above">Ads above Search Results</span>
+					<span><input type="checkbox" data-option="below">Ads below Search Results</span>
+					<span><input type="checkbox" data-option="right">Ads in Column on Right of Search Results</span>
+					<span><input type="checkbox" data-option="products">Products on Right of Search Results</span>
+					<span><input type="checkbox" data-option="r_searches"><em>Related Searches</em> Section</span>
+				</div>
+				<div class="section">
+					<h3>Bing Maps</h3>
+					<span><input type="checkbox" data-option="maps_above">Ads above Search Results</span>
+				</div>
+			</div>
+		<!-- DuckDuckGo -->
+			<div class="se_block" data-se="duckduckgo">
+				<div class="section">
+					<h3>DuckDuckGo Search</h3>
+					<span><input type="checkbox" data-option="all">All Ads in Search Results</span>
+				</div>
+			</div>
+		<!-- StartPage -->
+			<div class="se_block" data-se="startpage">
+				<div class="section">
+					<h3>StartPage Search</h3>
+					<span><input type="checkbox" data-option="above">Ads above Search Results</span>
+					<span><input type="checkbox" data-option="below">Ads below Search Results</span>
+				</div>
+			</div>
+		<!-- Ask -->
+			<div class="se_block" data-se="ask">
+				<div class="section">
+					<h3>Ask Search</h3>
+					<span><input type="checkbox" data-option="above">Ads above Search Results</span>
+					<span><input type="checkbox" data-option="below">Ads below Search Results</span>
+					<span><input type="checkbox" data-option="r_searches"><em>Related Searches</em> Section</span>
+					<span><input type="checkbox" data-option="s_results"><em>Shopping Results</em> Section</span>
+				</div>
+			</div>
+	</div>
+
+</body>

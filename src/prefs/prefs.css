@@ -1,0 +1,65 @@
+/* General */
+	html { width: 100%; }
+	* { font: message-box; }
+	em { font-style: italic; }
+	h1 { margin: 10px auto; font-size: 2.5rem; color: #333; }
+	h2 { font-size: 21px; color: #333; }
+
+/* Tabs */
+	#tabs {
+		margin: auto;
+		padding: 0px;
+		list-style: none;
+	}
+	#tabs .tab {
+		display: inline-block;
+		vertical-align: bottom;
+		margin-left: -4px;
+		padding: 10px 20px;
+		background-color: #FFF;
+		border: 1px solid #DDD;
+		border-radius-top-left: 2px;
+		border-radius-top-right: 2px;
+		font-size: 15px;
+		cursor: pointer;
+	}
+	#tabs .tab.active {
+		padding-bottom: 20px;
+		background-color: #F9F9F9;
+		font-weight: bold;
+		cursor: auto;
+	}
+
+/* Search Engine Blocks */
+	#se_blocks {
+		height: 375px;
+	}
+	.se_block:not(.active) {
+		display: none;
+	}
+	.se_block .section {
+		width: calc(50% - 40px - 5px);
+		padding: 20px;
+		display: inline-block;
+		vertical-align: top;
+	}
+	.se_block h3 {
+		font-size: 19px;
+		margin-top: 0px;
+	}
+	.se_block span {
+		display: block;
+		width: 100%;
+		padding: 10px 0px;
+		border-top: 1px solid #DDD;
+		text-align: right;
+		font-size: 13px;
+	}
+	.se_block span:last-child {
+		border-bottom: 1px solid #DDD;
+	}
+	.se_block span input {
+		float: left;
+		margin: auto;
+		margin-top: 2.5px;
+	}
