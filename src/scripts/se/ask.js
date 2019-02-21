@@ -27,22 +27,21 @@
 			if (prefs['above']) {
 				stylesheet = stylesheet + '\
 					/* Above Search Results */\n\
-					#magic1 { display: none !important; }\n\
+					.TopAdsPartial { display: none !important; }\n\
 					\n'
 			}
 		// Below Search Results
 			if (prefs['below']) {
 				stylesheet = stylesheet + '\
 					/* Below Search Results */\n\
-					#magic2 { display: none !important; }\n\
+					.BottomAdsPartial { display: none !important; }\n\
 					\n'
 			}
 		// "Related Searches" section
 			if (prefs['r_searches']) {
 				stylesheet = stylesheet + '\
 					/* "Related Searches" section (Search) */\n\
-					.related-search-top { display: none !important; }\n\
-					#mrRSM { display: none !important; }\n\
+					.PartialRelatedSearch-body { display: none !important; }\n\
 					\n'
 			}
 		// "Shopping results" section
