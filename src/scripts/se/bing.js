@@ -25,6 +25,10 @@
 
 		// Above Search Results
 			if (prefs['above']) {
+				$('#b_results li.b_ad:not(.b_adBottom)').remove()
+				setInterval(function() {
+					$('#b_results li.b_ad:not(.b_adBottom)').remove()
+				}, 100)
 				stylesheet = stylesheet + '\
 					/* Above Search Results */\n\
 					#b_results li.b_ad:not(.b_adBottom) { display: none !important; }\n\
@@ -32,6 +36,10 @@
 			}
 		// Below Search Results
 			if (prefs['below']) {
+				$('#b_results li.b_ad.b_adBottom').remove()
+				setInterval(function() {
+					$('#b_results li.b_ad.b_adBottom').remove()
+				}, 100)
 				stylesheet = stylesheet + '\
 					/* Below Search Results */\n\
 					#b_results li.b_ad.b_adBottom { display: none !important; }\n\
