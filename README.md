@@ -10,4 +10,4 @@ Originally published to the Mozilla add-ons catalog back in 2015 as a small pers
 
 Please submit any bug reports as a new issues with the *bug* label.
 
-Accepting PRs for new websites to be supported.
+Any PRs for new features/websites to be supported to be made to the develop branch.
