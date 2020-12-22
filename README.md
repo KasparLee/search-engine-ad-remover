@@ -2,6 +2,10 @@
 
 #### Popular extension for Firefox to remove adverts on Google, Bing, DuckDuckGo and more!
 
+![Daily Users](https://img.shields.io/amo/users/searchengineadremover)
+![Weekly Downloads](https://img.shields.io/amo/dw/searchengineadremover)
+![User Reviews](https://img.shields.io/amo/stars/searchengineadremover?label=user%20reviews)
+
 <a href="https://addons.mozilla.org/en-US/firefox/addon/searchengineadremover/"><img src="https://i.imgur.com/kMH6r1a.png" alt="Firefox Add-ons"></a>
 
 #### NOTE: This extension is not being actively maintained.
