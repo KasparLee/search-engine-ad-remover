@@ -1,0 +1,11 @@
+{
+    "rules": {
+        "import/extensions": 0,
+        "indent": ["error", "tab"],
+        "brace-style": 0,
+        "no-else-return": 0,
+        "no-console": 0,
+        "no-underscore-dangle": 0,
+        "max-len": ["warn", {"code": 150}]
+    }
+}
